@@ -635,10 +635,10 @@ body{
   padding-right: 2rem;
   padding-left: 2rem;
 }
-@media (min-width: 1200px){
+@media (min-width: 1800px){
 
   .container{
-    max-width: 1200px;
+    max-width: 1800px;
   }
 }
 .fixed{
@@ -680,10 +680,6 @@ body{
   width: 100%;
   height: 100%;
 }
-.size-4{
-  width: 1rem;
-  height: 1rem;
-}
 .h-16{
   height: 4rem;
 }
@@ -692,12 +688,6 @@ body{
 }
 .w-64{
   width: 16rem;
-}
-.w-72{
-  width: 18rem;
-}
-.w-60{
-  width: 15rem;
 }
 .cursor-default{
   cursor: default;
@@ -734,9 +724,6 @@ body{
 .overflow-auto{
   overflow: auto;
 }
-.rounded-md{
-  border-radius: calc(var(--radius) - 2px);
-}
 .rounded-b-lg{
   border-bottom-right-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
@@ -757,17 +744,11 @@ body{
 .bg-popover{
   background-color: hsl(var(--popover));
 }
-.p-4{
-  padding: 1rem;
-}
 .p-3{
   padding: 0.75rem;
 }
-.p-2{
-  padding: 0.5rem;
-}
-.p-1{
-  padding: 0.25rem;
+.p-4{
+  padding: 1rem;
 }
 .py-4{
   padding-top: 1rem;
@@ -796,10 +777,6 @@ body{
 }
 .font-medium{
   font-weight: 500;
-}
-.text-blue-500{
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 .text-foreground{
   color: hsl(var(--foreground));
